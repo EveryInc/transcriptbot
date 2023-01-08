@@ -1019,7 +1019,16 @@ var ChatBot = /*#__PURE__*/function (_Component) {
       this.setState({
         messages: [].concat(_toConsumableArray(this.state.messages), [{
           sender: "bot",
-          message: "How can I help you today?"
+          message: "Welcome to the Every Science Chatbot! I answer questions based on information contained in Huberman Lab podcast episode transcripts. Here are a few things you can ask me:"
+        }, {
+          sender: "bot",
+          message: "-> What is dopamine?"
+        }, {
+          sender: "bot",
+          message: "->  What is the best way to establish a habit?"
+        }, {
+          sender: "bot",
+          message: "->  Why is morning sunlight viewing important?"
         }])
       });
     }
