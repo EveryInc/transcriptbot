@@ -1,0 +1,4 @@
+.env
+.DS_STORE
+all_transcripts_embeddings.csv
+all_transcripts.csv
